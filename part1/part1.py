@@ -4,7 +4,7 @@ from google.cloud import compute_v1
 PROJECT_ID = "lab-5-510121"
 ZONE = "us-west1-b"
 VM_NAME = "flask-vm"
-MACHINE_TYPE = "e2-medium"
+MACHINE_TYPE = "f1-micro"
 
 STARTUP_SCRIPT = """#!/bin/bash
 
